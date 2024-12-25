@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyASv1v5d8QUbWF1ikqwsZ-SPzi9Stibx58",
+  apiKey: process.env.NEXT_PUBLIC_API_KEY,
   authDomain: "tjp-x-community.firebaseapp.com",
   projectId: "tjp-x-community",
   storageBucket: "tjp-x-community.firebasestorage.app",
